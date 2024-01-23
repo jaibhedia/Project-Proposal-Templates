@@ -2,7 +2,7 @@
 
 ### **Project Title**
 
-NPB NFT: A NFT Based Marketplace 
+ChainzCommerce: A Blockchain-Integrated E-Commerce Platform
 
 
 ### **What are you planning to build?**
@@ -16,7 +16,7 @@ We are planning to build a simple but effective NFT based marketplace where user
 **Problem Statement**
 To create a platform where the artists, stakeholders, collectors and the general public generalize the usage of the Web 3 technology from their day-to-day life and expanding their horizon to considering blockchain as just shares where they buy and sell when it's profitable.
 
-**How CryptoTracker Works**
+**How ChainzCommerce Works**
 
 - **View Purchased NFTs**: See a list of NFTs that you have purchased or own.
 - **Create NFTs**: Easily create and mint new NFTs, defining their attributes and metadata.
@@ -30,6 +30,14 @@ Solidity (Writing Smart Contract)
 - [Hardhat](https://hardhat.org/) (Development Framework)
 - [Ipfs](https://ipfs.io/) (Metadata storage)
 - [React routers](https://v5.reactrouter.com/) (Navigational components)
+
+### **E-R Diagram**
+
+- [Alt text](image.png)
+
+### **Scope of the project**
+
+The scope of ChainzCommerce includes the development of a blockchain-integrated platform for e-commerce activities. It addresses the need for enhanced security and trust in online transactions, offering a novel solution to existing challenges in the e-commerce sector.
 
 ### **Milestone Breakdown**
 
