@@ -1,4 +1,4 @@
-# NPB NFT: A NFT Based Marketplace
+# ChainzCommerce: A Blockchain-Integrated E-Commerce Platform
 
 ## Technology Stack & Tools
 
