@@ -33,7 +33,7 @@ Solidity (Writing Smart Contract)
 
 ### **E-R Diagram**
 
-- [Alt text](image.png)
+- ![Alt text](image.png)
 
 ### **Scope of the project**
 
