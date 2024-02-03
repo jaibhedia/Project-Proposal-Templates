@@ -132,8 +132,9 @@ const Home = ({ marketplace, nft, account, web3Handler }) => {
               Create your NFT List Which makes your data Worth
             </h2>
             <p className="text-gray-600 mb-6">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            It could be anything ranging from a piece of art, a music file, a video, a tweet, a meme, a game item, 
+            a domain name, a virtual land, a collectible card, a virtual pet, a digital certificate, a physical 
+            object, or anything else that can be represented digitally.
             </p>
             <div className="flex flex-col items-center justify-center">
               <div className="bg-none border-3 border-blue-700 text-white py-2 w-full md:w-2/3 lg:w-1/2 px-6 rounded-none cursor-pointer hover:bg-blue-700">
