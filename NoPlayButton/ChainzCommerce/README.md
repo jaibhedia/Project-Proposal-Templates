@@ -1,4 +1,4 @@
-# ChainzCommerce
+# NFT Marketplace
 
 ## Technology Stack & Tools
 
@@ -6,7 +6,7 @@
 - Javascript (React & Testing)
 - [Ethers](https://docs.ethers.io/v5/) (Blockchain Interaction)
 - [Hardhat](https://hardhat.org/) (Development Framework)
-- [Pinata Ipfs](https://www.pinata.cloud/) (Metadata storage)
+- [Ipfs](https://ipfs.io/) (Metadata storage)
 - [React routers](https://v5.reactrouter.com/) (Navigational components)
 
 ## Requirements For Initial Setup
@@ -18,12 +18,12 @@
 
 ### 2. Install Dependencies:
 ```
-$ cd ChainzCommerce
+$ cd nft_marketplace
 $ npm install
 ```
 ### 3. Boot up local development blockchain
 ```
-$ cd ChainzCommerce
+$ cd nft_marketplace
 $ npx hardhat node
 ```
 
@@ -41,6 +41,12 @@ $ npx hardhat node
 
 ### 7. Launch Frontend
 `$ npm run start`
+
+<h2 align="center">Our Contributors 🌱</h2>
+<p align="center">
+  <a href="https://github.com/jaibhedia/NPB_NFT/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=jaibhedia/NPB_NFT">
+</a></p>
 
 License
 ----

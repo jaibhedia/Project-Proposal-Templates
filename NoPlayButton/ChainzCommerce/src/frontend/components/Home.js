@@ -14,51 +14,11 @@ import { FaFacebook } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import "./styles/style.css";
 
-const Home = ({ marketplace, nft, account, web3Handler }) => {
-  const [loading, setLoading] = useState(true);
+const Home = ({ web3Handler, account }) => {
   const sectionRef = useRef(null);
-  const [items, setItems] = useState([]);
-  const loadMarketplaceItems = async () => {
-    // Load all unsold items
-    const itemCount = await marketplace.itemCount();
-    let items = [];
-    for (let i = 1; i <= itemCount; i++) {
-      const item = await marketplace.items(i);
-      if (!item.sold) {
-        // get uri url from nft contract
-        const uri = await nft.tokenURI(item.tokenId);
-        // use uri to fetch the nft metadata stored on ipfs
-        const response = await fetch(uri);
-        const metadata = await response.json();
-        // get total price of item (item price + fee)
-        const totalPrice = await marketplace.getTotalPrice(item.itemId);
-        // Add item to items array
-        items.push({
-          totalPrice,
-          itemId: item.itemId,
-          seller: item.seller,
-          name: metadata.name,
-          description: metadata.description,
-          image: metadata.image,
-        });
-      }
-    }
-    setLoading(false);
-    setItems(items);
-  };
-
-  const buyMarketItem = async (item) => {
-    await (
-      await marketplace.purchaseItem(item.itemId, { value: item.totalPrice })
-    ).wait();
-    loadMarketplaceItems();
-  };
   useEffect(() => {
     const section = sectionRef.current;
     section.classList.add("fade-in");
-  }, []);
-  useEffect(() => {
-    loadMarketplaceItems();
   }, []);
   return (
     <>
@@ -132,9 +92,8 @@ const Home = ({ marketplace, nft, account, web3Handler }) => {
               Create your NFT List Which makes your data Worth
             </h2>
             <p className="text-gray-600 mb-6">
-            It could be anything ranging from a piece of art, a music file, a video, a tweet, a meme, a game item, 
-            a domain name, a virtual land, a collectible card, a virtual pet, a digital certificate, a physical 
-            object, or anything else that can be represented digitally.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
             <div className="flex flex-col items-center justify-center">
               <div className="bg-none border-3 border-blue-700 text-white py-2 w-full md:w-2/3 lg:w-1/2 px-6 rounded-none cursor-pointer hover:bg-blue-700">
