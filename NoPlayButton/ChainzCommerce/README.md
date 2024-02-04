@@ -1,4 +1,4 @@
-# NFT Marketplace
+# ChainzCommerce: A Blockchain-Integrated E-Commerce Platform\
 
 ## Technology Stack & Tools
 
@@ -41,12 +41,6 @@ $ npx hardhat node
 
 ### 7. Launch Frontend
 `$ npm run start`
-
-<h2 align="center">Our Contributors 🌱</h2>
-<p align="center">
-  <a href="https://github.com/jaibhedia/NPB_NFT/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=jaibhedia/NPB_NFT">
-</a></p>
 
 License
 ----
