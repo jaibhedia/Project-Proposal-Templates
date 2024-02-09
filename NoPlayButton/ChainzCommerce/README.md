@@ -1,4 +1,4 @@
-# ChainzCommerce: A Blockchain-Integrated E-Commerce Platform\
+# ChainzCommerce: A Blockchain-Integrated E-Commerce Platform
 
 ## Technology Stack & Tools
 
